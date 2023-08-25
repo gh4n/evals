@@ -4,6 +4,7 @@ import openai
 
 from dataset import Prompt
 
+
 class Model:
 
     def __init__(self, name: str) -> None:
