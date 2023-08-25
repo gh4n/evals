@@ -3,6 +3,7 @@ import json
 from dataset import Dataset
 from model import Model
 
+
 class Eval:
     def __init__(self, dataset: Dataset, model: Model) -> None:
         self.dataset = dataset
