@@ -4,11 +4,13 @@ import json
 from dataclasses import dataclass
 from typing import Iterable
 
+
 @dataclass
 class Prompt:
     name: str
     question: str
     answer: str
+
 
 class Dataset:
     def __init__(self, name: str, path: str) -> None:
