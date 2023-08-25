@@ -1,0 +1,19 @@
+
+evals tool for detecting hidden cognition in large language models
+
+here we provide a suite to augment existing academic benchmarks with biasing information.
+we hypothesise that the results of these benchmarks can give us insight into comparative model reasoning faithfulness and conviction.
+
+
+---
+lit review:
+- Chain-of-Thought Prompting Elicits Reasoning in Large Language Models https://arxiv.org/abs/2201.11903
+
+links:
+- big bench hard https://arxiv.org/abs/2210.09261
+- AQUA https://github.com/deepmind/AQuA
+
+models to integrate:
+- https://huggingface.co/google/flan-t5-xxl
+- claude 1 & 2
+- gpt3.5 & 4
